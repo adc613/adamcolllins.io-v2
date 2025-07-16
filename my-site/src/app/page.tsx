@@ -1,4 +1,3 @@
-import ScrollContainer from "@/components/ScrollContainer";
 import ImageLink from "../components/ImageLink";
 
 export default function Home() {
