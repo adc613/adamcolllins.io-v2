@@ -12,19 +12,19 @@ export default function Home() {
             href="https://travel.adamcollins.io"
             imageSrc="/caving.jpg"
             alt="Travel website"
-            description="Travel Adventures"
+            description="Travel Stories"
           />
           <ImageLink
             href="https://wedding.adamcollins.io"
             imageSrc="/wedding.jpg"
             alt="Wedding website"
-            description="Wedding Photos"
+            description="Wedding website"
           />
           <ImageLink
             href="https://linkedin.com/in/adc613"
             imageSrc="/headshot3.jpg"
             alt="Professional"
-            description="LinkedIn Profile"
+            description="LinkedIn"
           />
         </div>
       </main>
