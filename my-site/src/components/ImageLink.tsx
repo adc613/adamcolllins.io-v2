@@ -8,7 +8,6 @@ interface ImageLinkProps {
   alt: string;
   description: string;
   className?: string;
-  parallaxSpeed?: number;
 }
 
 export default function ImageLink({
@@ -21,13 +20,13 @@ export default function ImageLink({
 
   return (
     <a
-      className={`relative group overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105 ${className}`}
+      className={`relative group overflow-hidden rounded-lg transition-transform duration-300 hover:scale-105 aspect-square ${className}`}
       href={href}
       target="_blank"
       rel="noopener noreferrer"
     >
       <Image
-        className="object-cover transition-transform duration-300 group-hover:scale-110"
+        className="h-full object-cover transition-transform duration-300 group-hover:scale-110"
         src={imageSrc}
         alt={alt}
         width={200}
