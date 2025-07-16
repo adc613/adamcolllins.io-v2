@@ -1,3 +1,4 @@
+import ScrollContainer from "@/components/ScrollContainer";
 import ImageLink from "../components/ImageLink";
 
 export default function Home() {
@@ -7,7 +8,9 @@ export default function Home() {
         <h1 className="text-4xl text-center m-auto mb-16">
           Adam Collins
         </h1>
-        <div className="flex flex-col gap-[32px] mx-auto">
+        <div
+          className="flex flex-col gap-[32px] mx-auto"
+        >
           <ImageLink
             href="https://travel.adamcollins.io"
             imageSrc="/caving.jpg"
@@ -18,7 +21,7 @@ export default function Home() {
             href="https://wedding.adamcollins.io"
             imageSrc="/wedding.jpg"
             alt="Wedding website"
-            description="Wedding website"
+            description="Wedding Details"
           />
           <ImageLink
             href="https://linkedin.com/in/adc613"
